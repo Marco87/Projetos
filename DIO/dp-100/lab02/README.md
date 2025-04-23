@@ -3,6 +3,7 @@
 Resource group a ser utilizado
 
 ![image](https://github.com/user-attachments/assets/d4ce58d4-a82b-4c6d-bc40-92ed03b1bc8d)
+![image](https://github.com/user-attachments/assets/52a8207f-9e11-41fe-b90e-f550195d69c6)
 
 
 
