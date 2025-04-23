@@ -63,7 +63,7 @@ Embora a análise pudesse ser feita utilizando notebooks e scripts Python, este 
 
 ---
 
-### Removendo o Resource Group
+### Removendo o Resource Group para não gastar créditos sem necessidade
 
 ![image](https://github.com/user-attachments/assets/945e038b-a8cc-4145-94bc-2b825d5c0e91)
 
