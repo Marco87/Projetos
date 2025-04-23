@@ -1,0 +1,22 @@
+Relatório de Experimento - Previsão de Vendas de Sorvete com Azure Machine Learning
+
+Foi gerada uma tabela contendo informações de data, temperatura e quantidade de vendas de sorvete. A base de dados simula 10 vendas por dia ao longo de um período de 2 anos, totalizando uma amostra robusta para análise preditiva.
+
+Essa tabela foi importada para o ambiente do Azure Machine Learning, onde foi conduzido um experimento utilizando o recurso Automated ML com o objetivo de prever a quantidade de vendas com base em dados históricos e na temperatura.
+
+Para estruturar esse experimento, utilizamos a ferramenta Designer do Azure Machine Learning Studio, que permite criar fluxos de trabalho (pipelines) de forma visual e sem a necessidade de codificação. Embora a análise pudesse ser realizada com o uso de notebooks e scripts em Python, este laboratório priorizou o uso da interface gráfica para destacar os recursos de baixo código da plataforma.
+
+O Automated ML foi o componente responsável por treinar diversos modelos de regressão automaticamente, avaliando o desempenho de cada um para selecionar a melhor abordagem para prever as vendas. O processo incluiu validação cruzada, ajustes de hiperparâmetros e avaliação de métricas de desempenho, tudo gerenciado automaticamente pela ferramenta.
+
+Principais recursos utilizados no Azure:
+Resource Group: Estrutura de gerenciamento que agrupa todos os recursos relacionados ao experimento (como máquinas, bancos de dados, modelos e pipelines), facilitando a organização e o controle de custos.
+
+Azure Machine Learning: Serviço da Microsoft para criação, treinamento e implantação de modelos de machine learning em escala. Ele oferece ferramentas para desenvolvedores e cientistas de dados colaborarem de forma eficiente.
+
+Compute Instances: Máquinas virtuais utilizadas como ambiente de desenvolvimento individual, onde é possível abrir notebooks, explorar dados e fazer testes com scripts.
+
+Compute Clusters: Conjunto escalável de máquinas virtuais usado para treinar modelos de machine learning. Ele pode aumentar ou reduzir automaticamente a capacidade de processamento conforme a necessidade do experimento.
+
+Automated ML: Recurso que automatiza o processo de seleção de modelos, pré-processamento de dados, ajuste de parâmetros e avaliação de métricas. Ideal para tarefas de classificação, regressão e previsão de séries temporais.
+
+Designer: Ferramenta visual baseada em arrastar-e-soltar, utilizada para criar fluxos de machine learning sem necessidade de codificação. Excelente para prototipagem rápida e entendimento de processos.
