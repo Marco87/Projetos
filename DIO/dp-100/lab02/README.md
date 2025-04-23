@@ -34,4 +34,9 @@ Criação dos vetores (parte dos textos dos arquivos importados) usados para a a
 
 ![image](https://github.com/user-attachments/assets/59247488-58d8-4db9-b3c4-3ee6bca0d4e2)
 
+Repsosta à pergunta feita no chat
+
+![image](https://github.com/user-attachments/assets/0b4f6fd0-9666-45fa-92c8-7f8272e7715d)
+
+
 
