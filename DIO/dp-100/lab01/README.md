@@ -20,6 +20,7 @@ Embora a análise pudesse ser feita utilizando notebooks e scripts Python, este 
 
 ### Criando o Resource Group e o Azure Machine Learning
 
+![image](https://github.com/user-attachments/assets/961406e3-5e77-4473-80ef-b2b6d5674b00)
 ![image](https://github.com/user-attachments/assets/2fcd92d3-3007-4af3-94fc-032c760d89a5)
 
 ---
