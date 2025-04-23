@@ -1,0 +1,18 @@
+Criando um Chatbot Baseado em Conteúdo de PDFs
+
+Este laboratório teve como objetivo a criação de um chatbot capaz de responder perguntas com base em documentos fornecidos. Para isso, utilizamos diversos recursos do Azure.
+
+Inicialmente, foi criado um Resource Group, que serve como um agrupamento lógico para gerenciar e organizar os recursos utilizados no projeto.
+
+Em seguida, criamos um hub no Azure AI Foundry, que foi utilizado para o processo de treinamento do chatbot. Nesse ambiente, foram feitos os uploads de dois arquivos em PDF que serviram como base de conhecimento. Os documentos continham informações sobre tipos de temperamentos, e essas informações foram utilizadas durante o treinamento do modelo.
+
+Para o deployment, foi utilizado o modelo GPT-4o junto com o Text Embedding 3 Large, além do recurso Azure AI Search para permitir que o chatbot pesquisasse de forma eficiente dentro do conteúdo dos PDFs.
+
+Como resultado do experimento, foi feita uma pergunta simples no chat solicitando a descrição dos tipos de temperamento, e o chatbot respondeu corretamente, demonstrando a eficácia do processo.
+
+Recursos Utilizados
+Resource Group: Agrupamento lógico de recursos do Azure, que facilita a organização e o gerenciamento de serviços relacionados a um projeto específico.
+
+Azure AI Foundry: Plataforma do Azure voltada para experimentos e treinamento com modelos de inteligência artificial generativa. Permite subir dados, configurar fluxos e treinar modelos com base em arquivos próprios.
+
+Azure AI Search: Serviço de pesquisa inteligente que possibilita buscas otimizadas em grandes volumes de dados textuais. Integrado ao modelo de IA, torna as respostas mais precisas ao consultar o conteúdo dos documentos.
